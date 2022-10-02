@@ -1,0 +1,3 @@
+﻿  assignment3.c
+C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3-3\assignment3.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ch3-3.vcxproj -> C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\x64\Debug\ch3-3.exe
