@@ -1,4 +1,4 @@
 ﻿  4-4.c
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\4-4\4-4.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\4-4\4-4.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  4-4.vcxproj -> C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\x64\Debug\ch4-4.exe
+C:\Users\robot\Documents\GitHub\c-language\c language\4-4\4-4.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\robot\Documents\GitHub\c-language\c language\4-4\4-4.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  4-4.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch4-4.exe

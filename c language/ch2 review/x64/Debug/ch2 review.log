@@ -1,4 +1,4 @@
 ﻿  ch2 review.c
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch2 review\ch2 review.c(6,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch2 review\ch2 review.c(5,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
-  ch2 review.vcxproj -> C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\x64\Debug\ch2 review.exe
+C:\Users\robot\Documents\GitHub\c-language\c language\ch2 review\ch2 review.c(6,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch2 review\ch2 review.c(5,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+  ch2 review.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch2 review.exe

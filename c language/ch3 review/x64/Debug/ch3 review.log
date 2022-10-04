@@ -1,10 +1,6 @@
 ﻿  ch3.c
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(139,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(141,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(143,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(145,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(8,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(9,8): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(10,14): warning C4101: 'l' :참조되지 않은 지역 변수입니다.
-C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\ch3 review\ch3.c(7,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
-  ch3 review.vcxproj -> C:\Users\robot\Documents\GitHub\Coding-problem-solution\c language\x64\Debug\ch3 review.exe
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(8,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(9,8): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(10,14): warning C4101: 'l' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(7,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+  ch3 review.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch3 review.exe
