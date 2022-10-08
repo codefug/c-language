@@ -123,14 +123,14 @@ int main(void) {
 //	scanf("%c %c %c", &a, &b, &c);
 //	printf("문자: %c %c %c", c, b, a);
 
-//printf("char형의 크기는 %d바이트입니다.\n", sizeof(char));
-//printf("short형의 크기는 %d바이트입니다.\n", sizeof(short));
-//printf("int형의 크기는 %d바이트입니다\n", sizeof(int));
-//printf("long형의 크기는 %d바이트입니다\n", sizeof(long));
-//printf("long long형의 크기는 %d바이트입니다\n", sizeof(long long)); 
-//printf("float형의 크기는 %d바이트입니다\n", sizeof(float)); 
-//printf("double형의 크기는 %d바이트입니다\n", sizeof(double)); 
-//printf("long double형의 크기는 %d바이트입니다\n", sizeof(long double));
+printf("char형의 크기는 %d바이트입니다.\n", sizeof(char));
+printf("short형의 크기는 %d바이트입니다.\n", sizeof(short));
+printf("int형의 크기는 %d바이트입니다\n", sizeof(int));
+printf("long형의 크기는 %d바이트입니다\n", sizeof(long));
+printf("long long형의 크기는 %d바이트입니다\n", sizeof(long long)); 
+printf("float형의 크기는 %d바이트입니다\n", sizeof(float)); 
+printf("double형의 크기는 %d바이트입니다\n", sizeof(double)); 
+printf("long double형의 크기는 %d바이트입니다\n", sizeof(long double));
 
 //double meter;
 //int hour, minute, second;

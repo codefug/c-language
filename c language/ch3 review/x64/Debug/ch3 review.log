@@ -1,4 +1,20 @@
 ﻿  ch3.c
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(126,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(126,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(127,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(127,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(128,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(128,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(129,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(129,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(130,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(130,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(131,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(131,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(132,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(132,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(133,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(133,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
 C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(8,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
 C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(9,8): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
 C:\Users\robot\Documents\GitHub\c-language\c language\ch3 review\ch3.c(10,14): warning C4101: 'l' :참조되지 않은 지역 변수입니다.
