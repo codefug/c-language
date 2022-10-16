@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch 6", "ch 6\ch 6.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch 7", "ch6\ch6.vcxproj", "{8141BCE8-A780-4FD5-A01A-95ED0ADC8D2E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "중간고사_대표_출력_프로그램", "중간고사_대표_출력_프로그램\중간고사_대표_출력_프로그램.vcxproj", "{E70790AB-2BF7-46FB-B83A-8A323F36816F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{8141BCE8-A780-4FD5-A01A-95ED0ADC8D2E}.Release|x64.Build.0 = Release|x64
 		{8141BCE8-A780-4FD5-A01A-95ED0ADC8D2E}.Release|x86.ActiveCfg = Release|Win32
 		{8141BCE8-A780-4FD5-A01A-95ED0ADC8D2E}.Release|x86.Build.0 = Release|Win32
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Debug|x64.ActiveCfg = Debug|x64
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Debug|x64.Build.0 = Debug|x64
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Debug|x86.Build.0 = Debug|Win32
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Release|x64.ActiveCfg = Release|x64
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Release|x64.Build.0 = Release|x64
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Release|x86.ActiveCfg = Release|Win32
+		{E70790AB-2BF7-46FB-B83A-8A323F36816F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
