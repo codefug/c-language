@@ -1,0 +1,4 @@
+﻿  project1-2.c
+C:\Users\robot\Documents\GitHub\c-language\c language\ch8-1-2\project1-2.c(6,8): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch8-1-2\project1-2.c(24): warning C4716: 'print_Primes': 값을 반환해야 합니다.
+  ch8-1-2.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch8-1-2.exe
