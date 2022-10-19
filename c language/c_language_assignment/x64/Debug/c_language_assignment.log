@@ -1,0 +1,5 @@
+﻿  bubble.c
+C:\Users\robot\Documents\GitHub\c-language\c language\c_language_assignment\bubble.c(9,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\c_language_assignment\bubble.c(9,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\c_language_assignment\bubble.c(8,12): warning C4101: 'tmp2' :참조되지 않은 지역 변수입니다.
+  c_language_assignment.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\c_language_assignment.exe
