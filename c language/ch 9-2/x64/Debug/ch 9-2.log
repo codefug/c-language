@@ -1,0 +1,7 @@
+﻿  ch 9-2.c
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 9-2\ch 9-2.c(12,19): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[5]'과(와) 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 9-2\ch 9-2.c(12,14): warning C4024: 'print_array': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 9-2\ch 9-2.c(13,30): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[5]'과(와) 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 9-2\ch 9-2.c(13,25): warning C4024: 'get_array_avg': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 9-2\ch 9-2.c(8,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  ch 9-2.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch 9-2.exe
