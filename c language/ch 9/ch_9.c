@@ -38,7 +38,7 @@ int main(void) {
 
 	//printf("%u %u %u", &i, &c, &f);
 
-	int number = 10;
+	int number = 20;
 
 	int* p;
 	int v=0;
@@ -49,7 +49,7 @@ int main(void) {
 
 	//포인터 변수는 다 4바이트이다.
 
-	*p = 20;
+	p = 20;
 
 	printf("1 %u\n", v);
 
