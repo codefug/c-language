@@ -1,0 +1,3 @@
+﻿  ch11.c
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 11\ch11.c(35,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  ch 11.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch 11.exe

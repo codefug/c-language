@@ -1,2 +1,2 @@
-﻿  add.c
-  add.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\add.exe
+﻿  StructureCallByReference.c
+c1 : fatal  error C1083: 소스 파일을 열 수 없습니다. '..\..\..\..\3-2\c language\StructureCallByReference.c': No such file or directory

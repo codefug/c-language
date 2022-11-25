@@ -36,34 +36,36 @@ int main(void) {
 
 	printf("¾È³çÇÏ¼¼¿ä, %s¿¡ »ç´Â %s¾¾.\n", address, name);*/
 
-	char sentence[100];
-	char haveto[100];
-	int i = 0;
+	//char sentence[100];
+	//char haveto[100];
+	//int i = 0;
 
-	printf("Insert a sentence: ");
-	gets_s(sentence, 100);
-	printf("Insert the same: ");
-	gets_s(haveto, 100);
+	//printf("Insert a sentence: ");
+	//gets_s(sentence, 100);
+	//printf("Insert the same: ");
+	//gets_s(haveto, 100);
 
-	while (sentence[i] != 0) {
-		if (sentence[i] == haveto[i++]) {
-			continue;
-		}
-		else {
-			printf("Wrong!!");
-			exit(0);
-		}
-	}
-	printf("Correct!!");
-	printf("Words are: ");
-	int j;
+	//while (sentence[i] != 0) {
+	//	if (sentence[i] == haveto[i++]) {
+	//		continue;
+	//	}
+	//	else {
+	//		printf("Wrong!!");
+	//		exit(0);
+	//	}
+	//}
+	//printf("Correct!!");
+	//printf("Words are: ");
+	//int j;
 
-	for (j = 0; j < i; j++) {
-		putch(sentence[j]);
-		if (sentence[j] == ' ') {
-			putch('\n');
-		}
+	//for (j = 0; j < i; j++) {
+	//	putch(sentence[j]);
+	//	if (sentence[j] == ' ') {
+	//		putch('\n');
+	//	}
 
-	}
+	//}
+
+
 	return 0;
 }
