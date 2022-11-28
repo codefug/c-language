@@ -1,3 +1,2 @@
 ﻿  ch10.c
-C:\Users\robot\Documents\GitHub\c-language\c language\ch 10\ch10.c(62,3): warning C4013: 'putch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   ch 10.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch 10.exe

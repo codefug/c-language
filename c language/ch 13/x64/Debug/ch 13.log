@@ -1,0 +1,6 @@
+﻿  ch_13.c
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 13\ch_13.c(19,55): warning C4133: '=': 'moive *'과(와) 'movie *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 13\ch_13.c(17,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 13\ch_13.c(28,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\robot\Documents\GitHub\c-language\c language\ch 13\ch_13.c(30,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ch 13.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\ch 13.exe
