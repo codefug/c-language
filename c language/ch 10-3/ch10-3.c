@@ -16,6 +16,7 @@ char mystrcpy(char *array1, char *array2) {
 
 	return array1;
 }
+
 int main(void)
 {
 	int i, k;

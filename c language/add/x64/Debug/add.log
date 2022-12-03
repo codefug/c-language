@@ -1,3 +1,2 @@
 ﻿  StructureCallByReference.c
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(702,5): error MSB6006: "CL.exe"이(가) 종료되었습니다(코드: 2).
 c1 : fatal  error C1083: 소스 파일을 열 수 없습니다. '..\..\..\..\3-2\c language\StructureCallByReference.c': No such file or directory

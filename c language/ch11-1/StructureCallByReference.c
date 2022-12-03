@@ -18,8 +18,8 @@ void callByReference(POINT pf)
 	printf("address of pf.x  : %d\n", &pf.x);
 	printf("address of pf.y  : %d\n", &pf.y);
 
-	printf("address of pf.x  : %d\n", pf.px);
-	printf("address of pf.y  : %d\n", pf.py);
+	printf("address of pf.px  : %d\n", pf.px);
+	printf("address of pf.py  : %d\n", pf.py);
 
 }
 

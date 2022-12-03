@@ -1,2 +1,5 @@
 ﻿  Gugu.c
-  GuguDan.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\GuguDan.exe
+C:\Users\robot\Documents\GitHub\c-language\c language\GuguDan\Gugu.c(23,5): error C2088: '+': struct에 맞지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\GuguDan\Gugu.c(29,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\robot\Documents\GitHub\c-language\c language\GuguDan\Gugu.c(21,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\robot\Documents\GitHub\c-language\c language\GuguDan\Gugu.c(24,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
