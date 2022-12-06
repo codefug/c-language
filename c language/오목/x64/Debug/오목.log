@@ -1,0 +1,3 @@
+﻿  omok.c
+C:\Users\robot\Documents\GitHub\c-language\c language\오목\omok.c(114,9): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  오목.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\c language\x64\Debug\오목.exe
