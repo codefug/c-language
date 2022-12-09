@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-	int ch;		// 정수형에 주의
-	ch = getchar(); 	// 첫 번째 문자를 입력받는다. 
-	
-	putchar(ch);	// 문자를 출력한다.
+	char array[6] = { 'a','b','c' };
+	int i;
 
-	return 0;
+	for (i = 0; i < strlen(array); i++)
+		printf("%c", array[i]);
 }
