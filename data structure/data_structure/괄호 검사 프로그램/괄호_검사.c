@@ -26,11 +26,9 @@ void push(stack* s, element item) {
 
 	if (is_full(s)) {
 		s->capacity *= 2;
-		s->data = (element*)realloc(s->data, s->capacity * sizeof(element));
+		s->data = (element*)realloc(s->data,s->capacity*sizeof(element));
 	}
-	else {
-		s->data[++(s->top)] = item;
-	}
+	s->data[++(s->top)] = item;
 }
 char pop(stack* s) {
 	if (is_empty(s)) {
