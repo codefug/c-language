@@ -1,0 +1,7 @@
+﻿  linkedlist.c
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\list2\linkedlist.c(21,10): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\list2\linkedlist.c(31,12): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\list2\linkedlist.c(40,6): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\list2\linkedlist.c(48,10): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\list2\linkedlist.c(56,40): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+  list2.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\list2.exe

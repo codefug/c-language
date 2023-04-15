@@ -32,7 +32,7 @@ element get_entry(list* l, int pos) {
 	return l->array[pos];
 }
 
-element print_list(list* l) {
+void print_list(list* l) {
 	int i;
 	for (i = 0; i < l->size; i++) {
 		printf("%d->", l->array[i]);
@@ -47,7 +47,7 @@ void insert_last(list* l, element item) {
 }
 
 void insert(list* l, int pos, element item) {
-	if (!is_full && pos >= 0 && pos <= l->size) {
+	if (!is_full(l) && pos >= 0 && pos <= l->size) {
 		for (int i = (l->size - 1); i >= pos; i--) {
 			l->array[i + 1] = l->array[i];
 		}

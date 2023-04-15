@@ -1,0 +1,10 @@
+﻿  hw1-1.c
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(13,12): warning C4133: '초기화 중': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(36,9): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(38,14): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(45,27): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(54,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(62,43): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(70,5): warning C4133: '=': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw1-1\hw1-1.c(63,14): warning C4133: '초기화 중': 'Linklist *'과(와) 'Linklist *' 사이의 형식이 호환되지 않습니다.
+  hw1-1.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\hw1-1.exe

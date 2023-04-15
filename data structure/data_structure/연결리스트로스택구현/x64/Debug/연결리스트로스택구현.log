@@ -1,0 +1,5 @@
+﻿  stacklist.c
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\연결리스트로스택구현\stacklist.c(30,10): warning C4133: '=': 'list *'과(와) 'list *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\연결리스트로스택구현\stacklist.c(41,9): warning C4133: '=': 'list *'과(와) 'list *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\연결리스트로스택구현\stacklist.c(48,23): warning C4133: '=': 'list *'과(와) 'list *' 사이의 형식이 호환되지 않습니다.
+  연결리스트로스택구현.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\연결리스트로스택구현.exe

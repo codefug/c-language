@@ -53,7 +53,7 @@ int main(void) {
 	arr = (int*)malloc(n * sizeof(int));
 	answer = (int*)malloc(n * sizeof(int));
 	for (int i = 0; i < n; i++) {
-		arr[i] = (rand() % 1000);
+		arr[i] = (rand() % 1000); //0~ 999사이의 난수로 이루어진 리스트 생성
 	}
 	for (int i = 0; i < n; i++) {
 		element a;
