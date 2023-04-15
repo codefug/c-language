@@ -33,7 +33,7 @@ void push(stack* s, element item) {
 
 element pop(stack* s) {
 	if (is_empty(s)) {
-		printf("비 상");
+		printf("비어있습니다.");
 		exit(1);
 	}
 	else return s->data[(s->top)--];

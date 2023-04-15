@@ -1,0 +1,3 @@
+﻿  원형queuepractice.c
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\원형queue\원형queuepractice.c(68,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  원형queue.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\원형queue.exe
