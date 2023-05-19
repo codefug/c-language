@@ -1,0 +1,8 @@
+﻿  hw2.c
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(133,9): warning C4133: '함수': 'FILE *'과(와) 'char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(133,25): warning C4047: '함수': 'int'의 간접 참조 수준이 'char [9]'과(와) 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(133,15): warning C4024: 'fgets': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(133,27): warning C4133: '함수': 'int *'과(와) 'FILE *' 사이의 형식이 호환되지 않습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(133,35): warning C4020: 'fgets': 실제 매개 변수가 너무 많습니다.
+C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw2\hw2.c(123,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  hw2.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\hw2.exe
