@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <memory.h>
 
+int alreadysearch = 0; //자식이 둘인 노드를 delete할때 불필요한 출력 피하기 위해 사용하는 전역변수
+
 // 20명의 학생들의 정보를 이진 탐색트리를 이용해서 삽입
 // 생일이 빠른 학생부터 늦은 학생 순으로 단순연결리스트 구성
 // 생일을 주면 해당 노드 삭제하고 후위순회해서 이름만 출력
@@ -31,12 +33,11 @@ Studentree* new_node(int birth, char name, int grade)
 int is_left_early(int fbirth, int sbirth) {
 	if (fbirth / 10000 < sbirth / 10000)
 		return 1;
-	else if (((fbirth % 10000) / 100) < ((sbirth % 10000) / 100))
+	if ((fbirth / 10000 == sbirth / 10000) && ((fbirth % 10000) / 100) < ((sbirth % 10000) / 100))
 		return 1;
-	else if (fbirth % 100 < sbirth % 100)
+	if ((fbirth / 10000 == sbirth / 10000) && ((fbirth % 10000) / 100) == ((sbirth % 10000) / 100) && (fbirth % 100 < sbirth % 100))
 		return 1;
-	else
-		return 0;
+	return 0;
 }
 
 //이진탐색트리 삽입
@@ -82,15 +83,17 @@ Studentree* delete_node(Studentree* root, int birth)
 		root->right = delete_node(root->right, birth);
 	// 키가 루트와 같으면 이 노드를 삭제하면 됨
 	else { // 탐색에 성공해서 지운다 이제
-		printf("삭제된 학생 정보 : %d %c %d", root->birth, root->name, root->grade);
-		// 단말 노드인 경우
+		//단말 or 자식 하나
 		if (root->left == NULL) {
+			if (!alreadysearch)
+			printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 			Studentree* temp = root->right;
 			free(root);
 			return temp;
 		}
-		// 자식이 하나인 경우
 		else if (root->right == NULL) {
+			if (!alreadysearch)
+			printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 			Studentree* temp = root->left;
 			free(root);
 			return temp;
@@ -98,13 +101,16 @@ Studentree* delete_node(Studentree* root, int birth)
 		// 자식이 둘인 경우
 		Studentree* temp = min_value_node(root->right);
 		//둘중에 뭘 올려도 이진탐색 트리는 성립하기 때문에 오른쪽만 봄
-		// 중외 순회시 후계 노드를 복사한다. 
+		// 중외 순회시 후계 노드를 복사한다.
+		printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 		root->name = temp->name;
 		root->grade = temp->grade;
 		root->birth = temp->birth;
 		//(오른쪽 자식에서 가장 작은 녀석을 root숫자에 복사한다.)
-		// 중외 순회시 후계 노드를 삭제한다. 
+		// 중외 순회시 후계 노드를 삭제한다.
+		alreadysearch = 1;
 		root->right = delete_node(root->right, temp->birth);
+		alreadysearch = 0;
 	}
 	return root;
 }
@@ -125,7 +131,11 @@ void main() {
 		printf("파일을 열 수 없습니다.\n");
 		return;
 	}
-	
+
+	char ignore_line[256];
+
+	fgets(ignore_line, sizeof(ignore_line), file);
+
 	for (int i=0; i<20; i++)
 	{
 		int birth;
@@ -133,12 +143,14 @@ void main() {
 		int grade;
 		fscanf(file, "%d %c %d", &birth, &name, &grade);
 		root = insert_node(root, birth, name, grade);
+		printf("\n");
 	}
 	fclose(file);
 	// 해당 번호 삭제
 	int birth,number=0;
 	while (number++ != 5) {
-		scanf_s("삭제할 %d번째 학생의 생일을 입력하시오: %d\n",&number, &birth);
+		printf("삭제할 %d번째 학생의 생일을 입력하시오: ", number);
+		scanf_s("%d",&birth);
 		root = delete_node(root, birth);
 	}
 	// 후위순회로 이름 출력
