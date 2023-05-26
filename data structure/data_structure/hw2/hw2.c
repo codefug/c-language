@@ -41,16 +41,16 @@ int is_left_early(int fbirth, int sbirth) {
 }
 
 //이진탐색트리 삽입
-Studentree* insert_node(Studentree* node, int birth,char name,int grade)
+Studentree* insert_node(Studentree* node, int birth, char name, int grade)
 {
 	// 트리가 공백이면 새로운 노드를 반환한다. 
-	if (node == NULL) return new_node(birth,name,grade);
+	if (node == NULL) return new_node(birth, name, grade);
 
 	// is_left_early함수를 통해서 새로 오는 노드의 값이 현재 노드의 값보다 빠를 경우 현재 노드의 왼쪽에서 다시 탐색 시작
-	if (is_left_early( birth , node->birth))
-		node->left = insert_node(node->left, birth,name,grade);
+	if (is_left_early(birth, node->birth))
+		node->left = insert_node(node->left, birth, name, grade);
 	else
-		node->right = insert_node(node->right, birth,name,grade);
+		node->right = insert_node(node->right, birth, name, grade);
 	// 변경된 루트 포인터를 반환한다. 
 	return node;
 }
@@ -75,25 +75,26 @@ Studentree* delete_node(Studentree* root, int birth)
 	//탐색 실패
 	if (root == NULL) return root;
 
-	// 만약 키가 루트보다 작으면 왼쪽 서브 트리에 있는 것임
-	if (is_left_early(birth,root->birth))
+	// 만약 새로받은 birth가 root보다 빠르면 왼쪽 서브 트리로 이동
+	if (is_left_early(birth, root->birth))
 		root->left = delete_node(root->left, birth);
-	// 만약 키가 루트보다 크면 오른쪽 서브 트리에 있는 것임
-	else if (is_left_early(root->birth,birth))
+	// 아니면 오른쪽 서브 트리로 이동
+	else if (is_left_early(root->birth, birth))
 		root->right = delete_node(root->right, birth);
-	// 키가 루트와 같으면 이 노드를 삭제하면 됨
+
+	// birth와 root가 같으면 탐색 완료임
 	else { // 탐색에 성공해서 지운다 이제
 		//단말 or 자식 하나
 		if (root->left == NULL) {
 			if (!alreadysearch)
-			printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
+				printf("삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 			Studentree* temp = root->right;
 			free(root);
 			return temp;
 		}
 		else if (root->right == NULL) {
 			if (!alreadysearch)
-			printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
+				printf("삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 			Studentree* temp = root->left;
 			free(root);
 			return temp;
@@ -101,15 +102,13 @@ Studentree* delete_node(Studentree* root, int birth)
 		// 자식이 둘인 경우
 		Studentree* temp = min_value_node(root->right);
 		//둘중에 뭘 올려도 이진탐색 트리는 성립하기 때문에 오른쪽만 봄
-		// 중외 순회시 후계 노드를 복사한다.
-		printf("\n삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
+		printf("삭제된 학생 정보 : %d %c %d\n", root->birth, root->name, root->grade);
 		root->name = temp->name;
 		root->grade = temp->grade;
 		root->birth = temp->birth;
-		//(오른쪽 자식에서 가장 작은 녀석을 root숫자에 복사한다.)
-		// 중외 순회시 후계 노드를 삭제한다.
+		//(오른쪽 자식에서 가장 작은 녀석을 root에 덮어쓴다.(root삭제))
 		alreadysearch = 1;
-		root->right = delete_node(root->right, temp->birth);
+		root->right = delete_node(root->right, temp->birth); //원래 오른쪽 자식에서 가장 작은 녀석이 있던 자리에 있는 숫자 없앰
 		alreadysearch = 0;
 	}
 	return root;
@@ -136,21 +135,20 @@ void main() {
 
 	fgets(ignore_line, sizeof(ignore_line), file);
 
-	for (int i=0; i<20; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		int birth;
 		char name;
 		int grade;
 		fscanf(file, "%d %c %d", &birth, &name, &grade);
 		root = insert_node(root, birth, name, grade);
-		printf("\n");
 	}
 	fclose(file);
 	// 해당 번호 삭제
-	int birth,number=0;
+	int birth, number = 0;
 	while (number++ != 5) {
 		printf("삭제할 %d번째 학생의 생일을 입력하시오: ", number);
-		scanf_s("%d",&birth);
+		scanf_s("%d", &birth);
 		root = delete_node(root, birth);
 	}
 	// 후위순회로 이름 출력
