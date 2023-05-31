@@ -1,10 +1,7 @@
 ﻿  hw3.c
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(149,52): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(167,9): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(206,19): warning C4133: '함수': 'GraphType *'과(와) 'edge *' 사이의 형식이 호환되지 않습니다.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(211,20): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(215,9): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(164,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(189,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(178): warning C4700: 초기화되지 않은 'inputlist' 지역 변수를 사용했습니다.
-  hw3.vcxproj -> C:\Users\robot\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\hw3.exe
+C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(164,9): warning C4550: 식이 인수 목록이 없는 함수로 계산됩니다.
+C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(173,9): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(218,5): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(170,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\hw3\hw3.c(188,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  hw3.vcxproj -> C:\Users\lsh\Documents\GitHub\c-language\data structure\data_structure\x64\Debug\hw3.exe
