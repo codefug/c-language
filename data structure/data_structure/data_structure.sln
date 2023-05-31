@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "중간고사 자료구조",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hw2", "hw2\hw2.vcxproj", "{93374BEF-7A45-4FF6-B4E2-BD73166B8896}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hw3", "hw3\hw3.vcxproj", "{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{93374BEF-7A45-4FF6-B4E2-BD73166B8896}.Release|x64.Build.0 = Release|x64
 		{93374BEF-7A45-4FF6-B4E2-BD73166B8896}.Release|x86.ActiveCfg = Release|Win32
 		{93374BEF-7A45-4FF6-B4E2-BD73166B8896}.Release|x86.Build.0 = Release|Win32
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Debug|x64.ActiveCfg = Debug|x64
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Debug|x64.Build.0 = Debug|x64
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Debug|x86.Build.0 = Debug|Win32
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Release|x64.ActiveCfg = Release|x64
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Release|x64.Build.0 = Release|x64
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Release|x86.ActiveCfg = Release|Win32
+		{478E1F49-437F-4784-B3D7-F8A1E2B12CC2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
